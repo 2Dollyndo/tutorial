@@ -6,13 +6,16 @@ namespace ContosoUniversity.Models {
         public int ID {
             get; set;
         }
-        public string LastName {
+        public string Nome{
             get; set;
         }
-        public string FirstMidName {
+        public string Sobrenome{
             get; set;
         }
-        public DateTime EnrollmentDate {
+        public DateTime Data {
+            get; set;
+        }
+        public string Secret {
             get; set;
         }
 
